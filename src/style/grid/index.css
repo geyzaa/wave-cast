@@ -2,7 +2,9 @@ body {
     display: grid;
     grid-template-areas: 
     "aside header" /*menu lateral  cabeçalho*/
-    "aside main"  /*menu lateral    main*/
+    "aside main";  /*menu lateral    main*/
+    grid-template-columns: auto 1fr; /*define largura de colunas, 
+    auto (de acordo com tamanho dos elementos dentro, 1fr ajusta a lagura disponível */
 }
 
 .cabecalho {
