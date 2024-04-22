@@ -1,0 +1,18 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "aside header" /*menu lateral  cabeçalho*/
+    "aside main"  /*menu lateral    main*/
+}
+
+.cabecalho {
+    grid-area: header;
+}
+
+.menu-lateral {
+    grid-area: aside;
+}
+
+.principal {
+    grid-area: main;
+}
