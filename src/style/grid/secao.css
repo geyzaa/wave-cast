@@ -9,3 +9,11 @@
     grid-template-rows: 70px auto; /*70 altura pro texto e auto para os cards*/
 }
 
+.secao-horizontal .secao__cartoes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(80%/2, max(350px, 80%/3)),1fr));
+    /*minmax, largura min e max dos cartões, aproveitando 80% do container e dividindo pra 2 colunas. 
+    350px largura máx. 1fr aproveitar toda a largura do layout*/
+    gap: 1.25rem;
+}
+
