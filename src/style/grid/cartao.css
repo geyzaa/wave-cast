@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-template-rows: auto 3rem 0.9rem;
+    column-gap: 1.25rem;
 }
 
 .secao-horizontal .cartao__imagem {
-    grid-area: 1 / 1 / 4 / 2;
+    grid-area: 1 / 1 / 4 / 2; /* linha-inicio / coluna-inicio / linha-fim / coluna-fim */
 }
 
 .secao-horizontal .cartao__botao {
