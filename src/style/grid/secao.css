@@ -17,3 +17,6 @@
     gap: 1.25rem;
 }
 
+.secao-vertical {
+    grid-template-columns: 1fr auto;
+}
