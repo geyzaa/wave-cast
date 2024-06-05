@@ -20,3 +20,12 @@
 .secao-vertical {
     grid-template-columns: 1fr auto;
 }
+
+.secao-vertical .secao__cartoes {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll; /*barra de rolagem na horizontal*/
+    overflow-y: hidden; /*esconde a barra na vertical*/
+    grid-column: 1/3; /*elementos ocupando da 1ª borda da 1 coluna até a última borda da 2 coluna*/
+    column-gap: 1.25rem;
+}
